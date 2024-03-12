@@ -41,5 +41,6 @@ try {
     console.log(error)
 }
 
+
 // creating a server
-app.listen(port, () => console.log(`server listening on port ${port}...`))
+app.listen(port, () => console.log(`server listening on port http://localhost:${port}...`))
